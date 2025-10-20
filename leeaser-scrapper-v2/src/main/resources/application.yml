@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: leeaser-scrapper-v2
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    show-sql: true
+  datasource:
+    password: admin
+    username: jrr
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/leeaser
+
+server:
+  port: 8080
